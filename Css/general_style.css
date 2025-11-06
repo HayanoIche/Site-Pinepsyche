@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Unifont";
+  src: url("../Fonts/unifont.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    background-color: #000000;
+    margin: 0;
+}
+
+#content {
+  max-width: 1550px;
+  margin: 0 auto;
+  padding: 0;
+  background: #001111;
+}
+

@@ -1,0 +1,22 @@
+main {
+    box-shadow: 
+        inset 40px 0 40px -30px #000,
+        inset -40px 0 40px -30px #000;
+    
+
+    text-align: center;
+    align-items: center;
+
+    height: 2000px;
+    background-color: #0d0d0d;
+}
+
+#textpine {
+    margin-top: 0px;
+    padding-top: 300px;
+    padding-bottom: 10px;
+
+    font-family: "Unifont", monospace;
+    color: white;
+    font-size: 57px;
+}

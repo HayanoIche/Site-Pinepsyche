@@ -1,0 +1,15 @@
+footer {
+    border-top: 10px solid #333;
+    background-color: #111;
+    
+    font-family: "Unifont", monospace;
+    font-size: 25px;
+
+    color: #e0e0e0;
+    text-align: center;
+    padding: 15px 0;
+
+    box-shadow: 
+        inset 40px 0 40px -30px #000,
+        inset -40px 0 40px -30px #000;
+}

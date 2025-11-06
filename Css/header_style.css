@@ -1,0 +1,95 @@
+header {
+    text-align: center;
+    align-items: center;
+    
+    background: #0f0f0f; /* cor de fundo da barra */
+    color: white;
+
+    box-shadow: 
+        inset 40px 0 40px -30px #000,
+        inset -40px 0 40px -30px #000;
+}
+
+@keyframes move-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -1000px 0; /* quanto mais pixels, mais longe ela anda */
+    }
+}
+
+#title {
+    background-image: url("../Images/sky.png");
+    background-size: 500px;
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    animation: move-back 15s linear infinite;
+
+    box-shadow:
+        inset 40px 0 40px -30px #000,
+        inset -40px 0 40px -30px #000;
+}
+
+#title a img {
+    width: 75%;
+    height: auto;
+
+    padding-top: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    vertical-align: middle;
+
+    filter: drop-shadow(15px 15px 10px rgba(0, 0, 0, 0.6));
+}
+
+
+#title p {
+    /* PARTE DA FONTE DA BARRA DE NAVEGAÇÃO*/
+    font-family: "Unifont", monospace;
+    font-size: 45px;
+    color: black;
+    font-weight: bold;
+
+    margin-top: 30px;
+    margin-bottom: 0px;
+
+    padding-bottom: 25px;
+
+    filter: drop-shadow(6px 6px 20px rgba(0, 0, 0, 0.6));
+}
+
+
+#navbar {
+    /* PARTE DA FONTE DA BARRA DE NAVEGAÇÃO*/
+    font-family: "Unifont", monospace;
+    font-size: 50px;
+
+    /* ESPAÇAMENTO E CENTRALIZAR */
+    display: flex;
+    justify-content: center;
+    gap: 225px;
+
+    border-top: 10px solid #333;
+    border-bottom: 10px solid #333;
+}
+
+#navbar a {
+    /* DECORAÇÃO DO TEXTO */
+    color: #e0e0e0;
+    text-decoration: none;
+
+    /* MARGENS */
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+    text-shadow:
+        3px 3px 0px #121214;
+}
+
+#navbar a:hover,
+#navbar a:focus {
+    /* DECORAÇÃO DO TEXTO QUANDO SELECIONADO */
+    color: #2f52a6;
+}
